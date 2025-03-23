@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+.env.*.backup
+
+# Logs and cache
+logs/
+*.log
+*.out
+*.err
+pip-log.txt
+pip-delete-this-directory.txt
+__pycache__/
+
+# Python-specific ignores
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Dependencies
+poetry.lock
+Pipfile
+Pipfile.lock
+requirements.txt
+
+# MyPy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Database & migrations (if applicable)
+db.sqlite3
+instance/
+migrations
